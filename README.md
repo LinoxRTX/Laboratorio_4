@@ -1,3 +1,4 @@
+
 # Laboratorio 4 - Sistema de Almacén
 
 ¡Hola profesor! ¿Cómo le va?
@@ -31,3 +32,20 @@ BEGIN
     PRINT 'Tabla Productos creada.';
 END
 GO
+```
+
+## Configuración de la conexión
+
+Por último, recuerda cambiar la cadena de conexión en el archivo `appsettings.json`:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(Aquí);Database=Almacen;Trusted_Connection=True;TrustServerCertificate=true;"
+  }
+}
+```
+
+## Notas finales
+
+He logrado hacer funcionar todo correctamente después de resolver los problemas que tuve durante las clases. Intenté aplicar tanto lo visto en clase como conocimientos adquiridos por mi cuenta, y puedo asegurar que el programa funciona adecuadamente. Si tienes alguna duda, estaré encantado de revisarlo contigo directamente desde mi PC.
